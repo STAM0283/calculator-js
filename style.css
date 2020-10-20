@@ -1,0 +1,110 @@
+body
+{
+	height: 700px;
+	background: #5C258D;
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+    background: linear-gradient(to right, #4389A2, #5C258D);
+}
+.porfolio2{
+	margin-left: 20%;
+	margin-top: 10%;
+    width: 60%;
+	height: 80%;
+	background : linear-gradient(to right, red, blue, green, yellow);
+	border-radius: 20px/20px;
+}
+.chrono{
+    margin-left: 12%;
+    margin-bottom: 20px;
+   
+}
+.Calculatrice table{
+    width: 100%;
+	margin-top: 4%;
+	margin-left: auto;
+}
+.form{
+	height: 80px;
+	background-color: gray;
+	border-radius: 10px/10px;
+}
+.titreCalculatrice{
+	width: 50%;
+	height: 10%;
+    font-size: xx-large;
+	margin-left: 25%;
+	background-color: pink;
+	text-align: center;
+	font-weight: bold;
+
+}
+#input1{
+	width: 200px;
+	margin-right: 4px;
+	height: 40px;
+	bottom: 190px;
+	background-color: green;
+	font-weight: bolder;
+	cursor: pointer;
+	font-size: x-large;
+}
+#input2{
+	width: 200px;
+	margin-top: 10px;
+	margin-right: 4px;
+	height: 40px;
+	bottom: 190px;
+	background-color: red;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: x-large;
+}
+#input3{
+	width: 200px;
+	margin-right: 4px;
+	height: 40px;
+	bottom: 190px;
+	background-color: blue;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: x-large;
+}
+#textchrono{
+	width: 214px;
+	background-color: white;
+	margin-right: 4px;
+	height: 30px;
+	bottom: 190px;
+	font-size: xx-large;
+}
+.textview{
+    width: 90%;
+	margin-left: 5%;
+	margin-top: 20px;
+	background-color: white;
+	height: 40px;
+	font-size: x-large;
+	border : 2px solid black;
+	font-family: 'Electrolize', sans-serif;
+	background-color: #EBEDE9;
+}
+
+.bouton{
+	width: 100%;
+	height: 60px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: large;
+	border-radius: 20px/20px;
+}
+.btn{
+	background-color: black;
+	color: white;
+}
+.btn2{
+	background-color: gray;
+}
+.tableau{
+	margin-top: 20px;
+	margin-left: 22px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculatrice</title>
+</head>
+
+
+<body>
+      <div class="titreCalculatrice">Calculatrice</div>
+    <article class="porfolio2">
+  
+
+    <div class="chrono" name=" chrono">
+
+       <button id="input1">Start</button>
+       <input type="text" id="textchrono" value="00:00:00">
+       <button id="input2">Pause</button>
+       <button id="input3">Reset</button>
+
+    </div>
+
+    
+        
+    <form name="form" class="form">
+
+       
+        <input type="text" name="textview" class="textview">
+
+    </form>
+
+    <div class="Calculatrice">
+        <table class="tableau">
+           <tr>
+               <td><input type="button" name="bouton" class="bouton" value="(" onclick="insererNum('(')"></td>
+               <td><input type="button" name="bouton" class="bouton" value=")" onclick="insererNum(')')"></td>
+               <td><input type="button" name="bouton" class="bouton" value="C" onclick="effacer()"></td>
+               <td><input type="button" name="bouton" class="bouton" value=">" onclick="retour()"></td>
+               <td><input type="button" name="bouton" class="bouton btn" value="/" onclick="insererNum('/')"></td>
+               <td><input type="button" name="bouton" class="bouton btn" value="*" onclick="insererNum('*')"></td>
+               
+           </tr>
+           <tr>
+               <td><input type="button" name="bouton" class="bouton" value="√" onclick=" racineCaree()"></td>
+               <td><input type="button" name="bouton" class="bouton" value="10**x" onclick=" dixPuissanceX()"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="7" onclick="insererNum(7)"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="8" onclick="insererNum(8)"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="9" onclick="insererNum(9)"></td>
+               <td><input type="button" name="bouton" class="bouton btn" value="-" onclick="insererNum('-')"></td>
+           </tr>
+           <tr>
+               <td><input type="button" name="bouton" class="bouton" value="π" onclick="insererNum(Math.PI)"></td>
+               <td><input type="button" name="bouton" class="bouton" value="x^y" onclick="xPuissanceY()"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="4" onclick="insererNum(4)"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="5" onclick="insererNum(5)"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="6" onclick="insererNum(6)"></td>
+               <td><input type="button" name="bouton" class="bouton btn" value="+" onclick="insererNum('+')"></td>
+           </tr>
+           <tr>
+               <td><input type="button" name="bouton" class="bouton" value="e" onclick="insererNum(Math.E)"></td>
+               <td><input type="button" name="bouton" class="bouton btn3" value="Start"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="1" onclick="insererNum(1)"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="2" onclick="insererNum(2)"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="3" onclick="insererNum(3)"></td>
+               <td rowspan="5"><input type="button" style="height: 120px" name="bouton" class="bouton btn" value="=" onclick="egal()"></td>
+           </tr>
+           <tr>
+               <td><input type="button" name="bouton" class="bouton" value="Rnd" onclick="round()"></td>
+               <td><input type="button" name="bouton" class="bouton btn4" value="Rest" onclick="rest()"></td>
+               <td colspan="2"><input type="button"  style="width: 120px" name="bouton" class="bouton btn2" value="0" onclick="insererNum(0)"></td>
+               <td><input type="button" name="bouton" class="bouton btn2" value="." onclick="insererNum('.')"></td>
+               
+           </tr>
+
+        </table>
+
+    </div>
+
+   </article>
+<script src="script.js"></script>
+
+</body>
+</html>
